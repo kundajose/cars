@@ -95,3 +95,24 @@ button {
   color: hsl(0, 0%, 95%);
   border: 3px solid hsl(0, 0%, 95%);
 }
+@media screen and (max-width: 375px) {
+  .row {
+    flex-direction: column;
+    width: 90;
+    height: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .orange,
+  .cyan,
+  .green {
+    width: 65%;
+    height: auto;
+  }
+}
+/* @media screen and (max-width: 1440px) {
+  .row {
+    width: auto;
+    height: 70%;
+  }
+} */
